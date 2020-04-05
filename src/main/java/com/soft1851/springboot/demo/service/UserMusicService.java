@@ -35,13 +35,13 @@ public interface UserMusicService {
     void batchDelete(List<Integer> idList);
 
     /**
-     * 用户收藏歌单
+     * 当前用户收藏歌单
      * @return
      */
     List<Map<String, Object>> getUserMusicByUserId(String userId);
 
     /**
-     * 收藏该首歌的所有用户信息
+     * 当前收藏该首歌的所有用户信息
      * @return
      */
     List<Map<String, Object>> getUserMusicByMusic(int musicId);
