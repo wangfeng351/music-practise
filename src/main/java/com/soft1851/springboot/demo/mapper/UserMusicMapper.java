@@ -52,7 +52,7 @@ public interface UserMusicMapper {
     void batchDeleteUserMusic(@Param("idList") List<Integer> idList);
 
     /**
-     * 用户及其收藏歌曲视图
+     * 用户及当前用户收藏歌曲视图
      *
      * @param userId
      * @return
@@ -67,7 +67,7 @@ public interface UserMusicMapper {
     List<Map<String, Object>> getUserMusicByUserId(String userId);
 
     /**
-     * 用户及其收藏歌曲视图
+     * 用户及当前用户收藏歌曲视图
      *
      * @param musicId
      * @return
