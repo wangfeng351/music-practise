@@ -1,4 +1,4 @@
-package com.soft1851.springboot.demo.mapper;
+﻿package com.soft1851.springboot.demo.mapper;
 
 import com.soft1851.springboot.demo.entity.Music;
 import org.apache.ibatis.annotations.Insert;
@@ -17,7 +17,7 @@ import java.util.Map;
 public interface MusicMapper {
 
     /**
-     * 音乐详情
+     * 根据id查询音乐详情
      *
      * @param id
      * @return
